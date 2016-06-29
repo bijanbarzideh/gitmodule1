@@ -2,19 +2,26 @@
 .table1 {
    width:80%;
    text-align:center;
+    height:10px;
+}
+.table1 td{
+    padding:10px;
 }
 .border_bottom_table1 {
        border-bottom: 1px #cccccc solid;
-       padding-top: 5px;
+       padding:10px;
    }
 
 .table2 {
    width:80%;
    text-align:center;
 }
+.table2 td{
+    padding:10px;
+}
 .border_bottom_table2{
        border-bottom: 1px #cccccc solid;
-       padding-top: 5px;
+       padding-top: 10px;
    }
    .statstable {
        border-top:1px #cccccc solid;
@@ -26,9 +33,80 @@
 }
 .statsnumbers {
     font-weight:bold;
-    font-size:20px;
+    font-size:2em;
 }
 .statswords {
-    font-size:5px;
+    font-size:.75em;
+    color:#cccccc;
+}
+.barchart {
+border:2px black solid;
+
+}
+
+.chart td{
+    width:100%;
+}
+.chart div{
+    background-color:#4da6ff;
+    padding:5px;
+    border-radius: 25px;
+}
+.lightbox_background{
+    background: #666666;
+    width:800px;
+    height: 500px;
+}
+.lightbox_white{
+	position: relative;
+	background: #fff;
+	width: 70%;
+	margin-left: 10%;
+	margin-right: 5%;
+	top: 25%;
+	padding: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.lightbox_white p{
+    padding-bottom: 10px;
     
+}
+.button{
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #ffb3b3;
+  padding: 12px 35px 12px 35px;
+  text-decoration: none;
+  float:right;
+
+}
+
+.float1{
+    float:left;
+    padding:10px;
+
+   
+}
+.float2{
+    float:left;
+    clear:left;
+   
+}
+.float_text{
+    overflow: hidden;
+    padding-left:10px;
+}
+.pushright {
+    margin-left: 90px;
+    overflow: hidden
+}
+.float2_right{
+    float:left;
+    clear:left;
+    margin-left: 80px;
 }
